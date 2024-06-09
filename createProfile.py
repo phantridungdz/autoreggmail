@@ -72,7 +72,7 @@ def create_profile(numberOfRow, GoLogin):
     GologinName = first_name
 
     gl = GoLogin({
-        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NjA5MWE2NGZiNmYxZGU5YzhlYzRhMDMiLCJ0eXBlIjoiZGV2Iiwiand0aWQiOiI2NjBkMjkzYTg2OTRkZDU5ODJmNDBlNDAifQ._YA1_ozzYgajQytX3zsb0wYXkJLKwlQn0HPVsWvqU00",
+        "token": "ey0",
     })
     proxies = [
         "hyperion.p.shifter.io:17010",
