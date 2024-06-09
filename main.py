@@ -26,9 +26,9 @@ nopecha.api_key = 'sub_1OztfXCRwBwvt6ptMtRcQc4w'
 def upload_cloudinary_image(image):
     unique_public_id = "captcha_" + str(uuid.uuid4())
     cloudinary.config(
-        cloud_name="ddnv4r9pb",
-        api_key="969759541794873",
-        api_secret="R-XQ8RJg8Rm__OAojjYdz44xRBM"
+        cloud_name="",
+        api_key="",
+        api_secret=""
     )
 
     return cloudinary.uploader.upload(image, public_id=unique_public_id)
